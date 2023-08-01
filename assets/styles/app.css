@@ -24,7 +24,21 @@ img {
 header {
   border: var(--border);
   padding: 0px;
-  margin: auto;
+  background-color: 0;
+}
+
+nav {
+  display: block;
+}
+nav ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
