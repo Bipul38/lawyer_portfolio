@@ -24,7 +24,7 @@ img {
 header {
   border: var(--border);
   padding: 0px;
-  background-color: 0;
+  background-color: black;
 }
 
 nav {
@@ -33,6 +33,7 @@ nav {
 nav ul {
   margin-bottom: 0;
   padding: 0;
+  display: flex;
 }
 nav ul li {
   list-style: none;
