@@ -1,10 +1,13 @@
-nav{display: block;
-    ul{margin-bottom: 0;
+nav{
+    display: block;
+     ul{margin-bottom: 0;
         padding: 0;
         display: flex;
-        li{ list-style: none;
+         li{ list-style: none;
             a{
-                color: red($color: #000000);
+                color: red;
+                font-size: 20px;
+                margin-bottom: 20px;
             }
         }
     }

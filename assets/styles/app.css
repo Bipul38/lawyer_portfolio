@@ -39,7 +39,9 @@ nav ul li {
   list-style: none;
 }
 nav ul li a {
-  color: 0;
+  color: red;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
