@@ -23,25 +23,30 @@ img {
 
 header {
   border: var(--border);
-  padding: 0px;
+  padding: 20px;
   background-color: black;
 }
 
 nav {
   display: block;
 }
+
 nav ul {
   margin-bottom: 0;
   padding: 0;
-  display: grid;
+  display: flex;
 }
+
 nav ul li {
   list-style: none;
 }
+
 nav ul li a {
   color: red;
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+
 
 /*# sourceMappingURL=app.css.map */

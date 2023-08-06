@@ -5,7 +5,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "npx sass assets/styles/app.css assets/styles/app.css -w"
-    "postcss": "npx postcss assets/styles/app.css -o assets/styles/app.css"
   },
   "keywords": [],
   "author": "",
