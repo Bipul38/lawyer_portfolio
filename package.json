@@ -4,10 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "npx sass assets/styles/app.css assets/styles/app.css -w"
+    "scss": "npx sass assets/styles/app.scss assets/styles/app.css -w",
+    "postcss": "npx postcss assets/styles/app.css -o assets/styles/app.css -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-scss": "^4.0.6"
+  }
 }
