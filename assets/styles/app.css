@@ -5,6 +5,11 @@
   --black_light: #4f4f4f;
   --black_deep: #2D2F30;
   --white: #fff;
+  --app_font: "poppin_regular"
+  --poppin_regular: "poppins_regular";
+  --poppin_semibold: "poppins_semibold";
+  --poppin_bold: "poppins_bold";
+  --poppin_extrabold: "poppins_extrabold";
 }
 
 body,
@@ -13,6 +18,7 @@ html {
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: var(--app_font);
 }
 
 img,
@@ -23,6 +29,9 @@ a, i, span {
 
 a {
   text-decoration: none;
+  font-size: 12px;
+  line-height: 22px;
+  transition-duration: 0.3s;
 }
 
 img {
@@ -85,10 +94,30 @@ h3 {
   line-height: 32px;
 }
 
-header {
-  border: var(--border);
-  padding: 20px;
-  background-color: black;
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+header .header_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+}
+
+header .header_body .logo img {
+  width: 130px;
+  padding-top: 5px;
+}
+
+header .header_body .search a {
+  padding-top: 8px;
 }
 
 nav {
@@ -99,6 +128,7 @@ nav ul {
   margin-bottom: 0;
   padding: 0;
   display: flex;
+  gap: 55px;
 }
 
 nav ul li {
@@ -106,9 +136,15 @@ nav ul li {
 }
 
 nav ul li a {
-  color: red;
+  color: var(--black_deep);
+  text-transform: uppercase;
+  font-weight: 400;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+  font-weight: 800;
 }
 
 

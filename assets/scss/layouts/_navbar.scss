@@ -3,11 +3,19 @@ nav{
      ul{margin-bottom: 0;
         padding: 0;
         display: flex;
+        gap: 55px;
          li{ list-style: none;
             a{
-                color: red;
+                color:var(--black_deep);
+                text-transform: uppercase;
+                font-weight: 400;
+                &.active,
+                &:hover{
+                    // font-family: var(--poppins_bold);
+                    font-weight: 800;
+                }
                 font-size: 20px;
-                margin-bottom: 20px;
+                margin-bottom: 0px;
             }
         }
     }
