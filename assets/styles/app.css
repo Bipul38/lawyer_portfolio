@@ -18,6 +18,7 @@
   --border: 1px solid red;
   --brand_light: #0F6E8C;
   --brand_deep: #05546D;
+  --gray: #8B8C8C;
   --black_light: #4f4f4f;
   --black_deep: #2D2F30;
   --white: #fff;
@@ -177,6 +178,7 @@ header .header_body .right_content .extra_links {
 }
 header .header_body .right_content .extra_links .search a {
   padding-top: 8px;
+  color: var(--black_deep);
 }
 header .header_body .right_content .extra_links .nav_control {
   display: none;
@@ -184,6 +186,9 @@ header .header_body .right_content .extra_links .nav_control {
 }
 header .header_body .right_content .extra_links .nav_control a {
   line-height: 10px;
+}
+header .header_body .right_content .extra_links .nav_control a span {
+  color: var(--black_deep);
 }
 @media (min-width: 0px) and (max-width: 991.9px) {
   header .header_body .right_content {
@@ -260,6 +265,139 @@ nav ul li a.active, nav ul li a:hover {
   nav ul.active {
     display: block;
   }
+}
+#banner .banner_content {
+  display: grid;
+  grid-template-columns: 755px 1fr;
+  padding: 200px 0px 70px;
+}
+@media (min-width: 0px) and (max-width: 575.9px) {
+  #banner .banner_content {
+    grid-template-columns: 1fr;
+    padding: 20px 0px 70px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  #banner .banner_content {
+    grid-template-columns: 1fr;
+    padding: 30px 0px 70px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  #banner .banner_content {
+    grid-template-columns: 725px 1fr;
+    padding: 50px 0px 70px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  #banner .banner_content {
+    padding: 50px 0px 70px;
+  }
+}
+#banner .banner_content .banner_details .top h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 90px;
+  color: var(--brand_deep);
+  line-height: 108px;
+}
+@media (min-width: 0px) and (max-width: 575.9px) {
+  #banner .banner_content .banner_details .top h1 {
+    font-size: 33px;
+    line-height: 48px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  #banner .banner_content .banner_details .top h1 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+}
+#banner .banner_content .banner_details .top p {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.5px;
+  max-width: 500px;
+  margin-top: 40px;
+}
+@media (min-width: 0px) and (max-width: 575.9px) {
+  #banner .banner_content .banner_details .top p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+#banner .banner_content .banner_details .top a {
+  padding: 29px 36px;
+  background-color: var(--brand_deep);
+  border-radius: 8px;
+  font-size: 16px;
+  color: var(--white);
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+@media (min-width: 0px) and (max-width: 575.9px) {
+  #banner .banner_content .banner_details .top a {
+    padding: 14px 29px;
+  }
+}
+#banner .banner_content .banner_details .bottom {
+  margin-top: 50px;
+}
+@media (min-width: 0px) and (max-width: 575.9px) {
+  #banner .banner_content .banner_details .bottom {
+    margin-top: 28px;
+  }
+}
+#banner .banner_content .banner_details .bottom p {
+  font-size: 22px;
+  color: var(--gray);
+  line-height: 30px;
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  #banner .banner_content .banner_details .bottom {
+    width: 321px;
+  }
+}
+#banner .banner_content .banner_details .bottom .sponsor_list {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 105px 105px;
+  gap: 25px;
+}
+#banner .banner_content .banner_details .bottom .sponsor_list a img {
+  width: 100%;
+  object-fit: contain;
+}
+#banner .banner_content .banner_image {
+  position: relative;
+}
+#banner .banner_content .banner_image img {
+  width: 540px;
+  position: absolute;
+  left: -130px;
+  top: -46px;
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  #banner .banner_content .banner_image img {
+    width: 100%;
+    position: unset;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  #banner .banner_content .banner_image img {
+    left: -352px;
+    top: 218px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+  #banner .banner_content .banner_image img {
+    width: 321px;
+    left: -392px;
+    top: 245px;
+  }
+}
+#banner .banner_content .banner_image img img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
