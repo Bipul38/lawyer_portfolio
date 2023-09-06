@@ -285,13 +285,13 @@ nav ul li a.active, nav ul li a:hover {
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
   #banner .banner_content {
-    grid-template-columns: 725px 1fr;
-    padding: 50px 0px 70px;
+    grid-template-columns: 735px 1fr;
+    padding: 30px 0px 70px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
   #banner .banner_content {
-    padding: 50px 0px 70px;
+    padding: 30px 0px 70px;
   }
 }
 #banner .banner_content .banner_details .top h1 {
@@ -340,7 +340,7 @@ nav ul li a.active, nav ul li a:hover {
   }
 }
 #banner .banner_content .banner_details .bottom {
-  margin-top: 50px;
+  margin-top: 95px;
 }
 @media (min-width: 0px) and (max-width: 575.9px) {
   #banner .banner_content .banner_details .bottom {
@@ -353,7 +353,7 @@ nav ul li a.active, nav ul li a:hover {
   line-height: 30px;
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-  #banner .banner_content .banner_details .bottom {
+  #banner .banner_content .banner_details .bottom p {
     width: 321px;
   }
 }
@@ -371,10 +371,17 @@ nav ul li a.active, nav ul li a:hover {
   position: relative;
 }
 #banner .banner_content .banner_image img {
-  width: 540px;
+  width: 500px;
   position: absolute;
-  left: -130px;
+  left: -133px;
   top: -46px;
+}
+@media (min-width: 0px) and (max-width: 575.9px) {
+  #banner .banner_content .banner_image img {
+    width: 100%;
+    position: unset;
+    margin-top: 40px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.9px) {
   #banner .banner_content .banner_image img {
@@ -385,15 +392,16 @@ nav ul li a.active, nav ul li a:hover {
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
   #banner .banner_content .banner_image img {
+    width: 366px;
     left: -352px;
     top: 218px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
   #banner .banner_content .banner_image img {
-    width: 321px;
-    left: -392px;
-    top: 245px;
+    width: 331px;
+    left: -352px;
+    top: 251px;
   }
 }
 #banner .banner_content .banner_image img img {
