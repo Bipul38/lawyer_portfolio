@@ -371,7 +371,7 @@ nav ul li a.active, nav ul li a:hover {
   position: relative;
 }
 #banner .banner_content .banner_image img {
-  width: 500px;
+  width: 482px;
   position: absolute;
   left: -133px;
   top: -46px;
@@ -392,16 +392,16 @@ nav ul li a.active, nav ul li a:hover {
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
   #banner .banner_content .banner_image img {
-    width: 366px;
-    left: -352px;
+    width: 343px;
+    left: -331px;
     top: 218px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
   #banner .banner_content .banner_image img {
     width: 331px;
-    left: -352px;
-    top: 251px;
+    left: -338px;
+    top: 245px;
   }
 }
 #banner .banner_content .banner_image img img {
