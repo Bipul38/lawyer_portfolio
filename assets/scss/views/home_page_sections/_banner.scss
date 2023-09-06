@@ -110,7 +110,7 @@
             position: relative;
 
             img {
-                width: 500px;
+                width: 482px;
                 position: absolute;
                 left: -133px;
                 top: -46px;
@@ -129,15 +129,15 @@
                 }
 
                 @include lg() {
-                    width: 366px;
-                    left: -352px;
+                    width: 343px;
+                    left: -331px;
                     top: 218px;
                 }
 
                 @include md() {
                     width: 331px;
-                    left: -352px;
-                    top: 251px;
+                    left: -338px;
+                    top: 245px;
                 }
 
                 img {
