@@ -30,6 +30,7 @@ header{
                     // border: var(--border);
                     a{
                         padding-top: 8px;
+                        color: var(--black_deep);
                     }
                 } 
                 .nav_control{
@@ -38,6 +39,9 @@ header{
                     align-content: center;
                     a{
                         line-height: 10px;
+                        span{
+                            color: var(--black_deep);
+                        }
                     }
                 } 
             }
