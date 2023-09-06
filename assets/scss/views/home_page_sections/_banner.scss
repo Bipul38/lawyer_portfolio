@@ -1,5 +1,5 @@
 #banner {
-    .banner_content {
+    .banner_content { 
         display: grid;
         grid-template-columns: 755px 1fr;
         padding: 200px 0px 70px;
@@ -15,12 +15,14 @@
         }
 
         @include md() {
-            grid-template-columns: 725px 1fr;
-            padding: 50px 0px 70px;
+            grid-template-columns: 735px 1fr;
+            padding: 30px 0px 70px;
         }
-        @include lg(){
-            padding: 50px 0px 70px;
+
+        @include lg() {
+            padding: 30px 0px 70px;
         }
+
         .banner_details {
             .top {
                 h1 {
@@ -33,6 +35,7 @@
                         font-size: 33px;
                         line-height: 48px;
                     }
+
                     @include sm() {
                         font-size: 60px;
                         line-height: 75px;
@@ -45,7 +48,8 @@
                     letter-spacing: 0.5px;
                     max-width: 500px;
                     margin-top: 40px;
-                    @include xs(){
+
+                    @include xs() {
                         font-size: 16px;
                         line-height: 30px;
                     }
@@ -59,8 +63,8 @@
                     color: var(--white);
                     text-transform: uppercase;
                     margin-top: 50px;
-                    
-                    @include xs(){
+
+                    @include xs() {
                         padding: 14px 29px;
                     }
                 }
@@ -68,9 +72,9 @@
             }
 
             .bottom {
-                margin-top: 50px;
+                margin-top: 95px;
 
-                @include xs (){
+                @include xs () {
                     margin-top: 28px;
                 }
 
@@ -78,11 +82,13 @@
                     font-size: 22px;
                     color: var(--gray);
                     line-height: 30px;
+
+                    @include md() {
+                        width: 321px;
+                    }
                 }
 
-                @include md() {
-                    width: 321px;
-                }
+                
 
                 .sponsor_list {
                     padding-top: 30px;
@@ -104,26 +110,34 @@
             position: relative;
 
             img {
-                width: 540px;
+                width: 500px;
                 position: absolute;
-                left: -130px;
+                left: -133px;
                 top: -46px;
 
-                @include sm() {
+                @include xs() {
                     width: 100%;
                     position: unset;
                     margin-top: 40px;
                 }
 
+                @include sm() {
+                    width: 100%;
+                    position: unset;
+                    margin-top: 40px;
+
+                }
+
                 @include lg() {
+                    width: 366px;
                     left: -352px;
                     top: 218px;
                 }
 
                 @include md() {
-                    width: 321px;
-                    left: -392px;
-                    top: 245px;
+                    width: 331px;
+                    left: -352px;
+                    top: 251px;
                 }
 
                 img {
