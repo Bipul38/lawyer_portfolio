@@ -113,7 +113,7 @@
                 width: 482px;
                 position: absolute;
                 left: -133px;
-                top: 41px;
+                top: -132px;
 
                 @include xs() {
                     width: 100%;
@@ -139,8 +139,13 @@
                     left: -338px;
                     top: 245px;
                 }
+                @include xl(){
+                    width: 487px;
+                    left: -156px;
+                    top: 32px;
+                }
                 img {
-                    width: 100%;
+                    width: 50%;
                 }
             }
         }
