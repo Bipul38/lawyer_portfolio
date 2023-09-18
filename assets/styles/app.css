@@ -400,7 +400,7 @@ nav ul li a.active, nav ul li a:hover {
   width: 482px;
   position: absolute;
   left: -133px;
-  top: 41px;
+  top: -132px;
 }
 @media (min-width: 0px) and (max-width: 575.9px) {
   #banner .banner_content .banner_image img {
@@ -430,8 +430,15 @@ nav ul li a.active, nav ul li a:hover {
     top: 245px;
   }
 }
+@media (min-width: 1200px) and (max-width: 1399.9px) {
+  #banner .banner_content .banner_image img {
+    width: 487px;
+    left: -156px;
+    top: 32px;
+  }
+}
 #banner .banner_content .banner_image img img {
-  width: 100%;
+  width: 50%;
 }
 
 #our_features {
