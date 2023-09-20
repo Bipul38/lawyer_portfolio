@@ -141,6 +141,7 @@ h3 {
 
 .container {
   width: 1200px;
+  border: var(--border);
   margin: auto;
   padding: 0px 15px;
 }
@@ -397,7 +398,7 @@ nav ul li a.active, nav ul li a:hover {
   position: relative;
 }
 #banner .banner_content .banner_image img {
-  width: 482px;
+  width: 540px;
   position: absolute;
   left: -133px;
   top: -132px;
