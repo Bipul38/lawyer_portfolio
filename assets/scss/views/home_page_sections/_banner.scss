@@ -1,7 +1,7 @@
 #banner {
     .banner_content {
         display: grid;
-        grid-template-columns: 755px 1fr;
+        grid-template-columns:735px 1fr;
         padding: 200px 0px 105px;
 
         @include xs() {
@@ -15,7 +15,7 @@
         }
 
         @include md() {
-            grid-template-columns: 735px 1fr;
+            grid-template-columns: 1fr 0px;
             padding: 30px 0px 25px;
         }
 
@@ -27,7 +27,7 @@
             .top {
                 h1 {
                     font-family: 'Playfair Display', serif;
-                    font-size: 90px;
+                    font-size: 70px;
                     color: var(--brand_deep);
                     line-height: 108px;
 
@@ -113,7 +113,7 @@
                 width: 540px;
                 position: absolute;
                 left: -133px;
-                top: -132px;
+                top: -147px;
 
                 @include xs() {
                     width: 100%;
@@ -129,18 +129,18 @@
                 }
 
                 @include lg() {
-                    width: 343px;
-                    left: -331px;
+                    width: 352px;
+                    left: -318px;
                     top: 218px;
                 }
 
                 @include md() {
-                    width: 331px;
-                    left: -338px;
-                    top: 245px;
+                    width: 337px;
+                    left: -321px;
+                    top: 251px;
                 }
                 @include xl(){
-                    width: 487px;
+                    width: 497px;
                     left: -156px;
                     top: 32px;
                 }
