@@ -14,30 +14,32 @@
         gap: 30px;
         grid-template-columns: 1fr 1fr;
 
-        @include lg(){
+        @include lg() {
             grid-template-columns: 1fr;
         }
 
-        @include md(){
+        @include md() {
             grid-template-columns: 1fr;
         }
-        @include sm(){
+
+        @include sm() {
             grid-template-columns: 1fr;
         }
-        @include xs(){
+
+        @include xs() {
             grid-template-columns: 1fr;
         }
 
         .item {
-            // border: var(--border);
-
+            border: var(--border);
             .text {
                 background-color: var(--white);
                 border-radius: 10px;
                 box-shadow: 0px 0px 10px 10px rgba(49, 49, 52, 0.163);
                 padding: 32px;
                 position: relative;
-                .arrow_part{
+
+                .arrow_part {
                     height: 25px;
                     width: 25px;
                     background-color: var(--white);
@@ -47,6 +49,7 @@
                     bottom: -25px;
                     left: 45%;
                 }
+
                 .heading {
                     font-size: 18px;
                     text-align: center;
@@ -66,6 +69,7 @@
                 display: flex;
                 gap: 15px;
                 justify-content: center;
+
                 .left {
                     .giver_image {
                         height: 55px;
