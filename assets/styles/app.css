@@ -641,9 +641,6 @@ nav ul li a.active, nav ul li a:hover {
     grid-template-columns: 1fr;
   }
 }
-.testimonial_content .testimonial_items .item {
-  border: var(--border);
-}
 .testimonial_content .testimonial_items .item .text {
   background-color: var(--white);
   border-radius: 10px;
