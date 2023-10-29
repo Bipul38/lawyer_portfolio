@@ -15,8 +15,12 @@
 <ol>
 <h5>Specialities<h5>
  <ol>
+    <li>SEO friendly<li>
     <li>all device friendly design<li>
+    <li>fast loading<li>
+    <li>fully optimized<li>
 <ol>
+<h5>Features<h5>
 <ol>
 <li>- HTML5, CSS3, jQuery</li>
 <li>- 3 Background Styles (Image, Particles, Youtube)</li>
