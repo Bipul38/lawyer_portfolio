@@ -1,4 +1,5 @@
 <h3>WELCOME TO LAWYER PORTFOLIO PROJECT<h3>
+<img src="./mockup/1.jpg" style="max-width:250px; width:100%;">
 <h5>Technologies<h5>
  <ol>
     <li>HTML 5<li>
