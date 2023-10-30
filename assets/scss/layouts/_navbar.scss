@@ -5,6 +5,7 @@ nav{
         display: flex;
         gap: 55px;
         justify-content: center;
+        z-index: 9;
          li{ list-style: none;
 
             &.close_nav{
@@ -25,6 +26,10 @@ nav{
                 &:hover{
                     // font-family: var(--poppins_bold);
                     font-weight: 800;
+                    background-color: var(--brand_light);
+                    padding: 5px 12px;
+                    color: var(--white);
+                    border-radius: 2px;
                 }
                 font-size: 20px;
                 margin-bottom: 0px;
@@ -55,6 +60,12 @@ nav{
 
             &.active{
                 display: block;
+            }
+            li{
+                margin-bottom: 15px;
+                a{
+                    font-size: 17px;
+                }
             }
         }
     }
