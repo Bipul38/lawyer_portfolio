@@ -57,4 +57,13 @@ A brief and impactful tagline that encapsulates my legal philosophy.
 Information about my education, legal expertise, and areas of specialization.
 A glimpse into my passion for justice and commitment to client success.
 <p>
-
+<h6>what to do next<h6>
+<ol>
+    <li>real data<li> 
+    <li>heading css with class name<li>
+    <li>image alter name<li>
+    <li>SEO tag pricing<li>
+    <li>mockup<li>
+    <li>thumb image<li>
+    <li>well describtive README.md file creation<li>
+<ol>
